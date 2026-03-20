@@ -11,8 +11,9 @@ public class VictoryController : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider collision)
     {
+        Debug.Log(collision.gameObject.name + " touched finish");
         StartCoroutine(PlayThenLoad());
     }
 
