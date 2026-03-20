@@ -82558,7 +82558,7 @@ Transform:
   m_GameObject: {fileID: 654345436}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0265, y: 0.9922, z: 0.9058}
+  m_LocalPosition: {x: -0.0265, y: 0.995, z: 0.898}
   m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -184078,7 +184078,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 200
+  far clip plane: 150
   field of view: 60
   orthographic: 0
   orthographic size: 5
