@@ -70054,7 +70054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 486413fe112b34f9582ba38963663f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wind: {x: 0, y: 0, z: -100}
+  wind: {x: 0, y: 0, z: -30}
   bplaController: {fileID: 2136937987}
 --- !u!65 &539519929
 BoxCollider:
@@ -121716,7 +121716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 486413fe112b34f9582ba38963663f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wind: {x: -100, y: 0, z: 0}
+  wind: {x: -30, y: 0, z: 0}
   bplaController: {fileID: 2136937987}
 --- !u!65 &886877103
 BoxCollider:
@@ -173639,7 +173639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 486413fe112b34f9582ba38963663f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wind: {x: 0, y: 0, z: 100}
+  wind: {x: 0, y: 0, z: 30}
   bplaController: {fileID: 2136937987}
 --- !u!65 &1331682020
 BoxCollider:
@@ -213925,7 +213925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 486413fe112b34f9582ba38963663f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wind: {x: 100, y: 0, z: 0}
+  wind: {x: 30, y: 0, z: 0}
   bplaController: {fileID: 2136937987}
 --- !u!65 &1653910122
 BoxCollider:
@@ -245546,7 +245546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 486413fe112b34f9582ba38963663f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wind: {x: 0, y: -100, z: 0}
+  wind: {x: 0, y: -30, z: 0}
   bplaController: {fileID: 2136937987}
 --- !u!65 &1903697871
 BoxCollider:
