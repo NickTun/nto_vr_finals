@@ -9,6 +9,9 @@ public class BPLAController : MonoBehaviour
     [SerializeField] private GameObject joystick;
     [SerializeField] private GameObject handle;
     [SerializeField] private GameObject world;
+    [SerializeField] private AudioSource fire;
+    [SerializeField] private AudioClip fireClip;
+    [SerializeField] private ParticleSystem fireParticle;
 
     [Header("Settings")]
     [SerializeField] private float maxAngle = 60f;
@@ -85,6 +88,12 @@ public class BPLAController : MonoBehaviour
         worldRb.AddForce(gravityMove + move, ForceMode.Acceleration);
 
         UpdateText(tempAtHeight);
+
+        if(heatMovement != 0) {
+            Debug.Log(heatMovement);
+            fire.PlayOneShot(fireClip, -heatMovement*0.3f);
+            fireParticle.startLifetime = -heatMovement*10;
+        }
 
         // Debug.Log(moveY + " " + currentTemp + " " + fuel);
             
