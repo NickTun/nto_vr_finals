@@ -19,6 +19,6 @@ public class TerrainController : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         Debug.Log(collision.gameObject.name + " touched terrain");
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("load_scene_1");
     }
 }
